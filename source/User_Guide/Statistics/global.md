@@ -12,7 +12,7 @@ navigation:
 
 
 {% info %}
-Parent accounts will see aggregated stats for their account and all subuser accounts. Subuser accounts will only see their own stats.
+Parent accounts will only see aggregated stats for their individual account, not their subuser accounts. Subuser accounts will only see their own stats as well.
 {% endinfo %}
 
 Your Global Stats page is where you can really dig into your email stats. From here you will be able to filter through your stats by type, but you will also be able to look at the actual numbers for each stat by date. You can change which metrics, date, or grouping by adjusting the [statistics filters]({{root_url}}/User_Guide/Statistics/index.html#-Statistics-Filters).
