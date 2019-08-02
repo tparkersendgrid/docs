@@ -189,54 +189,52 @@ Substitution tags allow you to easily generate dynamic content for each recipien
    
  </tr>
  <tr>
-   <td><code class="language-text">{{Sender_Name}}</code>* </td>
+   <td><code class="language-text">{{Sender_Name}}*</code> </td>
    <td>The name of the sender selected when sending your email</td>
    
  </tr>
   <tr>
-   <td><code class="language-text">{{Sender_Email}}</code>* </td>
+   <td><code class="language-text">{{Sender_Email}}*</code> </td>
    <td>The email of the sender selected when sending your email</td>
    
  </tr>
  <tr>
-   <td><code class="language-text">{{Sender_Address}}</code>* </td>
+   <td><code class="language-text">{{Sender_Address}}*</code> </td>
    <td>The address on record for the sender selected when sending your email</td>
    
  </tr>
  <tr>
-   <td><code class="language-text">{{Sender_City}}</code>* </td>
+   <td><code class="language-text">{{Sender_City}}*</code> </td>
    <td>The city on record for the sender selected when sending your email</td>
    
  </tr>
  <tr>
-   <td><code class="language-text">{{Sender_State}}</code>* </td>
+   <td><code class="language-text">{{Sender_State}}*</code> </td>
    <td>The state on record for the sender selected when sending your email</td>
    
  </tr>
  <tr>
-   <td><code class="language-text">{{Sender_Zip}}</code>* </td>
+   <td><code class="language-text">{{Sender_Zip}}*</code> </td>
    <td>The zip code on record for the sender selected when sending your email</td>
    
  </tr>
  <tr>
-   <td><code class="language-text">{{Sender_Country}}</code>* </td>
+   <td><code class="language-text">{{Sender_Country}}*</code> </td>
    <td>The country on record for the sender selected when sending your email</td>
    
  </tr>
  <tr>
-   <td><code class="language-text"><%asm_group_unsubscribe_<br>raw_url%></code>* </td>
+   <td><code class="language-text"><%asm_group_unsubscribe_<br>raw_url%>*</code> </td>
    <td>This tag is replaced with a link allowing your recipients to opt out of any emails you send using the chosen Unsubscribe Group</td>
    
  </tr>
  <tr>
-   <td><code class="language-text"><%asm_global_unsubscribe_<br>raw_url%></code>
-   * </td>
+   <td><code class="language-text"><%asm_global_unsubscribe_<br>raw_url%>*</code> </td>
    <td>This tag is replaced with a link allowing your recipients to opt out of all email communication</td>
    
  </tr>
  <tr>
-   <td><code class="language-text"><%asm_preferences_<br>raw_url%></code>
-   * </td>   
+  <td><code class="language-text"><%asm_preferences_<br>raw_url%>*</code> </td>   
    <td>This tag is replaced with a link allowing your recipients to opt out of any email unsubscribe groups you offer.</td>
    <td>Unsubscribe</td>
   
