@@ -451,6 +451,22 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
 
 ## 	Event objects
 
+KEY:
+
+    PROCESSED
+    DROPPED DELIVERED
+    DEFERRED    
+    BOUNCE  
+    OPENED  
+    CLICKED 
+    SPAM REPORT 
+    UNSUBSCRIBE 
+    GROUP UNSUBSCRIBE   
+    GROUP RESUBSCRIBE
+
+
+
+
 <table class="table auto">
   <tr>
     <th></th>
@@ -514,13 +530,13 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
     <td>X</td>
     <td>X</td>
     <td>X</td>
-    <td>X</td>
-    <td>X</td>
-    <td>X</td>
-    <td>X</td>
-    <td>X</td>
-    <td>X</td>
-    <td>X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td><a href="#useragent">useragent</a></td>
@@ -540,9 +556,9 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
     <td><a href="#ip">ip</a></td>
     <td></td>
     <td></td>
+    <td>X</td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>X</td>
     <td>X</td>
     <td>X</td>
     <td></td>
@@ -560,7 +576,7 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
     <td>X</td>
     <td>X</td>
     <td>X</td>
-    <td>X</td>
+    <td></td>
     <td>X</td>
     <td>X</td>
   </tr>
@@ -574,7 +590,7 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
     <td>X</td>
     <td>X</td>
     <td>X</td>
-    <td>X</td>
+    <td></td>
     <td>X</td>
     <td>X</td>
   </tr>
@@ -583,7 +599,7 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
     <td></td>
     <td>X</td>
     <td></td>
-    <td></td>
+    <td>X</td>
     <td>X</td>
     <td></td>
     <td></td>
@@ -595,7 +611,7 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
   <tr>
     <td><a href="#status">status</a></td>
     <td></td>
-    <td>X</td>
+    <td></td>
     <td></td>
     <td></td>
     <td>X</td>
@@ -611,7 +627,7 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
     <td></td>
     <td></td>
     <td>X</td>
-    <td>X</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -624,9 +640,9 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
     <td><a href="#tls">tls</a></td>
     <td></td>
     <td></td>
+    <td>X</td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>X</td>
     <td></td>
     <td></td>
     <td></td>
@@ -645,7 +661,7 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
     <td>X</td>
     <td></td>
     <td></td>
-    <td>X</td>
+    <td></td>
     <td>X</td>
   </tr>
   <tr>
@@ -659,18 +675,18 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
     <td>X</td>
     <td>X</td>
     <td>X</td>
-    <td>X</td>
-    <td>X</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td><a href="#asmgroupid">asm_group_id</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
     <td></td>
     <td></td>
     <td>X</td>
@@ -692,31 +708,31 @@ Engagement events include open, click, spam report, unsubscribe, group unsubscri
   </tr>
   <tr>
     <td><a href="#marketingcampaignid">marketing_campaign_id</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
   </tr>
   <tr>
     <td><a href="#marketingcampaignname">marketing_campaign_name</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
   </tr>
   <tr>
     <td><a href="#attempt">attempt</a></td>
